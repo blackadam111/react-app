@@ -1,0 +1,19 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.pagination .pageButton {
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: goldenrod;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pagination .pageButton:hover {
+    border: 1px solid black;
+}
